@@ -1,0 +1,57 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #244D3F;
+  --primary-hover: #1d3d32;
+  --white: #FFFFFF;
+  --text-dark: #101727;
+  --text-muted: #64748B;
+  --bg-page: #F8FAFC;
+  --bg-card: #FFFFFF;
+  --border: #E9E9E9;
+  --green-badge-bg: #CBFADB;
+  --green-badge-text: #1A8862;
+  --red: #EF4444;
+  --amber: #EFAD44;
+  --gray-badge-bg: #D9D9D9;
+  --gray-badge-text: #64748B;
+  --faint: #FAFAFA;
+  --footer-bg: #244D3F;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+}
+
+body {
+  font-family: 'Geist', sans-serif;
+  background: var(--bg-page);
+  color: var(--text-dark);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: 'Geist', sans-serif;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input, select, textarea {
+  font-family: 'Geist', sans-serif;
+}
+
+img {
+  display: block;
+}
