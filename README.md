@@ -25,13 +25,6 @@ KeenKeeper is a relationship management app that helps you stay connected with t
 
 3. **Friendship Analytics** — A donut chart on the Stats page shows your interaction breakdown by type.
 
-## Getting Started
-
-```bash
-npm install
-npm run dev
-```
-
 ## Deployment
 
 - Vercel: `vercel.json` configured for SPA routing
